@@ -1,6 +1,6 @@
 Portal Dashboard Backend
 
-
+The backend of the Portal Dashboard is built using Django, leveraging the Django REST Framework to provide a set of RESTful APIs for frontend consumption.The database used is PostgreSQL, which efficiently stores and manages data. Central to the backend is the PortalDetail model, which inherits from an abstract model CommonPortalDetail. This model includes various fields such as start_year, end_year, intensity, sector, topic, insight, url, region, impact, added, published, country, relevance, pestle, source, title, and likelihood, each designed to capture detailed information relevant to the portal. The PortalDetail model is mapped to the portal_detail database table, facilitating organized data storage and retrieval. The backend provides a GET API for fetching data, supporting various filters, and a CRUD API for managing data operations, ensuring the frontend always has access to up-to-date information.
 
 Installation steps:
 
