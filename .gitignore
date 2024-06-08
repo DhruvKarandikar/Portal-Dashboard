@@ -1,0 +1,34 @@
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
+logs
+#mac index file
+.DS_Store
+# Backup files #
+*.bak
+
+
+# Environments
+.env
+.venv
+venv/
+env/
+.vscode
+data/
+.data
